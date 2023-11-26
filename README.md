@@ -12,13 +12,12 @@ A Python script for solving linear programming models using the Gurobi library, 
 
 - The library supports constraints in the form of `>=`, `<=`, or `=`.
 - For strict inequalities (`>` or `<`), adjust the value slightly below or above the desired constraint value. Choose a small ε value that is significantly smaller than the problem's range to ensure it doesn't impact the solution.
-
-### Example:
+- Example:
 To represent a strict inequality like `X < 12`, use `X <= 12 - ε`. For instance, set epsilon to a value like `0.0001`, ensuring it's sufficiently small to avoid affecting the problem's solution.
 
 ## Usage
 
-1. Run the `solver.py` script.
+1. Run the `Linear programming problem solver.ipynb` script.
 2. Follow the instructions to input the number of variables, objective function, and constraints.
 3. The script will display the optimal solution of the problem and sensitivity analysis.
 
