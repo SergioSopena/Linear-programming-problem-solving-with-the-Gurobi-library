@@ -20,8 +20,3 @@ To represent a strict inequality like `X < 12`, use `X <= 12 - ε`. For instance
 1. Run the `Linear programming problem solver.ipynb` script.
 2. Follow the instructions to input the number of variables, objective function, and constraints.
 3. The script will display the optimal solution of the problem and sensitivity analysis.
-
-
-## Contribution
-
-Contributions are welcome. If you have suggestions for improvement, please create an issue or submit a pull request.
